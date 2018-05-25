@@ -1,3 +1,23 @@
-<p>
-  contact works!
-</p>
+<div class="container">
+  <form #contactForm="ngForm" (ngSubmit)="submit()" id="contact" action="" method="post">
+    <h3>Cook WIth US </h3>
+    <h4>Contact us, share a recipe or reach out for help!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required name="name" [(ngModel)]="contact.name">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required name="email" [(ngModel)]="contact.email">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required name="phone" [(ngModel)]="contact.phone">
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required name="message" [(ngModel)]="contact.message"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+
+
+</div>
