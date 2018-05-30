@@ -1,10 +1,8 @@
 .container {
-    display: flex;
     margin-top: 100px;
     background: rgb(233, 230, 230);
     border: 3px solid rgb(253, 122, 0);
 	margin: auto;
-    position:relative;
     margin-top: 125px;
 
 }
@@ -37,4 +35,13 @@
 }
 .btn-3, .btn-2, .btn-1{
     flex: 1;
+}
+
+.card{
+    width: 100%;
+}
+
+.spacing{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
