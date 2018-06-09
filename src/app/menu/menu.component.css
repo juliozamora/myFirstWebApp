@@ -8,7 +8,7 @@
 .container {
 
     background: rgb(255, 255, 255);
-    border: 3px transparent rgb(253, 122, 0); 
+    border: 3px solid rgb(253, 122, 0); 
 position:relative;
 max-width:1000px;
 	width:100%;
