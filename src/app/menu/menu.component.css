@@ -1,44 +1,31 @@
-.container {
-    margin-top: 100px;
-    background: rgb(233, 230, 230);
-    border: 3px solid rgb(253, 122, 0);
-	margin: auto;
-    margin-top: 125px;
-
+.background{
+    background-image:  url('../../assets/menubackground.jpg');
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
 }
 
+.container {
 
-
-
-.container1 {
-    display: flex;
-    margin-top: 100px;
-    background: rgb(233, 230, 230);
+    background: rgb(255, 255, 255);
+    border: 3px transparent rgb(253, 122, 0); 
+position:relative;
+max-width:1000px;
+	width:100%;
 	margin:0 auto;
     position:relative;
-    padding: 25px;
+    opacity: .9;
 
 }
 
 
-
-.container2 {
-    display: flex;
-    margin-top: 100px;
-    background: rgb(233, 230, 230);
-    margin:0 auto;
-    position:relative;
-    padding: 25px;
-    
-	
-
-}
 .btn-3, .btn-2, .btn-1{
     flex: 1;
 }
 
 .card{
     width: 100%;
+    height: 450px;
 }
 
 .spacing{
