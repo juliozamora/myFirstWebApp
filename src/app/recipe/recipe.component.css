@@ -1,0 +1,33 @@
+.padding{
+    padding-top: 100px;
+}
+.background{
+    background-image:  url('../../assets/menubackground.jpg');
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+    width: 100%;
+}
+.colorbox {
+    background: #ffcc00; 
+    border: 3px solid rgb(253, 122, 0); 
+
+max-width:800px;
+	width:100%;
+
+
+    opacity: .9;
+    border-radius: 12px;
+
+}
+.recipepic{
+ 
+    border: 3px solid rgb(253, 122, 0); 
+
+max-width:505px;
+	width:100%;
+
+
+    opacity: .9;
+   
+}

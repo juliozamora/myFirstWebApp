@@ -1,0 +1,35 @@
+<div class="background">
+<div class="container padding">
+  <div class="row">
+    <div class="col">
+      <div class="recipepic">
+      <img [src]="currentRecipe.img" alt="" width="500" >
+      </div>
+      <div class=colorbox>
+      <h1> {{ currentRecipe.name}} </h1>
+      <h2>Ingredients </h2>
+      <ul>
+        <li *ngFor="let step of currentRecipe.ingredients"> {{ step }}</li>
+        
+      </ul>
+      <h2>Instructions</h2>
+      <ul>
+        <li *ngFor="let step of currentRecipe.instructions"> {{ step }}</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid home">
+  <div class="row cont">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" id="empty">
+
+<button type="button" class="btn btn-success" routerLink="/menu">Back to Menu</button>
+
+</div>
+</div>
+</div>
+<!-- if clicked on rice recipe add options for other types of rice on the top left corner -->

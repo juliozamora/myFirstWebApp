@@ -7,10 +7,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { RecipesComponent } from './recipes/recipes.component';
 import { MenuComponent } from './menu/menu.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { RecipeComponent } from './recipe/recipe.component';
 
 
 @NgModule({
@@ -19,8 +19,8 @@ import {HttpClientModule} from '@angular/common/http';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    RecipesComponent,
     MenuComponent,
+    RecipeComponent,
   ],
   imports: [
     BrowserModule,
