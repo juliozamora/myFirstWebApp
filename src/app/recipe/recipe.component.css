@@ -8,7 +8,7 @@
     background-size: cover;
     width: 100%;
 }
-.colorbox {
+/* .colorbox {
     background: #ffcc00; 
     border: 3px solid rgb(253, 122, 0); 
 
@@ -19,8 +19,8 @@ max-width:800px;
     opacity: .9;
     border-radius: 12px;
 
-}
-.recipepic{
+} */
+/* .recipepic{
  
     border: 3px solid rgb(253, 122, 0); 
 
@@ -30,4 +30,16 @@ max-width:505px;
 
     opacity: .9;
    
+} */
+
+.recipebox {
+    background: rgb(255, 255, 255);
+    border: 3px solid #ffd900; 
+position:relative;
+max-width:1000px;
+	width:100%;
+	margin:0 auto;
+    position:relative;
+    opacity: .9;
+    /* border-radius: 12px; */
 }
